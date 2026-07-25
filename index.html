@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f7fb" />
+    <meta
+      name="description"
+      content="Wang Chenghao — Fudan University AI student and research intern working on multimodal models, video understanding, and data systems."
+    />
+    <meta property="og:title" content="Wang Chenghao — AI &amp; data systems" />
+    <meta
+      property="og:description"
+      content="A concise résumé of Wang Chenghao's education, research, projects, and publications."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://henrywch.github.io/" />
+    <link rel="canonical" href="https://henrywch.github.io/" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./script.js"></script>
+    <title>Wang Chenghao — AI &amp; data systems</title>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="Wang Chenghao home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span>Wang Chenghao</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#profile">Profile</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#paper">Paper</a>
+        </nav>
+
+        <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+          <span class="theme-icon" aria-hidden="true">☼</span>
+          <span class="theme-label">Theme</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="intro" id="top" aria-labelledby="intro-title">
+        <div class="container intro-grid">
+          <div>
+            <p class="eyebrow">Fudan University · Artificial Intelligence</p>
+            <h1 id="intro-title">Wang Chenghao <span lang="zh-Hans">王宬皓</span></h1>
+            <p class="intro-lede">
+              I build the data pipelines, evaluation tools, and multimodal experiments that make intelligent systems more useful.
+            </p>
+            <div class="intro-links" aria-label="Primary links">
+              <a class="button button-primary" href="mailto:23307140080@m.fudan.edu.cn">Email me <span aria-hidden="true">↗</span></a>
+              <a class="button button-secondary" href="https://github.com/henrywch" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+
+          <aside class="intro-note" aria-label="Current focus">
+            <p class="note-label">Currently</p>
+            <p class="note-title">Research intern</p>
+            <p class="note-copy">Flow Video Understanding Group<br />Fudan NLP Laboratory · Shanghai</p>
+            <div class="availability"><span class="availability-dot" aria-hidden="true"></span> Open to research conversations</div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="resume-section" id="profile" aria-labelledby="profile-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">01 / profile</p>
+            <h2 id="profile-title">A short introduction.</h2>
+          </div>
+
+          <div class="profile-grid">
+            <article class="info-card info-card-wide">
+              <p class="card-label">Education</p>
+              <h3>Fudan University</h3>
+              <p>Shanghai · Sep 2023–present</p>
+              <p class="card-detail">Undergraduate in Artificial Intelligence<br />Integrated undergraduate–graduate track · Computer Science class</p>
+            </article>
+
+            <article class="info-card">
+              <p class="card-label">Grade</p>
+              <h3>大三 <span class="muted">/ Year 3</span></h3>
+              <p>As listed on my current résumé</p>
+            </article>
+
+            <article class="info-card">
+              <p class="card-label">Focus</p>
+              <h3>Multimodal AI</h3>
+              <p>Video understanding · data engineering · evaluation tooling</p>
+            </article>
+
+            <article class="info-card info-card-wide">
+              <p class="card-label">Toolbox</p>
+              <div class="tag-list" aria-label="Skills">
+                <span>Python</span><span>C / C++</span><span>Vue 3</span><span>Flask</span><span>ASR / TTS</span><span>OCR grounding</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="resume-section section-muted" id="experience" aria-labelledby="experience-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">02 / experience</p>
+            <h2 id="experience-title">Research, from data to demo.</h2>
+          </div>
+
+          <div class="experience-list">
+            <article class="experience-item">
+              <div class="experience-meta"><span>Sep 2025–present</span><span>Fudan NLP Laboratory</span></div>
+              <div class="experience-content">
+                <p class="role">Research intern · Flow Video Understanding Group</p>
+                <h3>Video-understanding large models &amp; data engineering</h3>
+                <ul>
+                  <li>Designed a data pipeline around PB-scale capacity; the delivered filtering workflow improved speed by 100% over the previous process.</li>
+                  <li>Built six Vue 3 + Flask internal applications for data checks, training submission, inference QA, resource management, and interactive demos.</li>
+                  <li>Supported approximately 2M OCR-grounding captions, 1M identity-cognition records, and 60M fine-grained text labels.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="experience-item">
+              <div class="experience-meta"><span>May–Dec 2024</span><span>Fudan University</span></div>
+              <div class="experience-content">
+                <p class="role">Research intern · Large-model NLP data construction &amp; cleaning</p>
+                <h3>Building usable datasets from the ground up</h3>
+                <ul>
+                  <li>Reproduced an MBTI personality dialogue dataset and expanded it with structured role-card collections.</li>
+                  <li>Implemented sensitive-word data cleaning and quality checks for a high-quality emotional-dialogue database.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="resume-section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading section-heading-inline">
+            <div>
+              <p class="section-kicker">03 / projects</p>
+              <h2 id="projects-title">Selected repositories.</h2>
+            </div>
+            <a class="text-link" href="https://github.com/henrywch" target="_blank" rel="noreferrer">All projects on GitHub ↗</a>
+          </div>
+
+          <div class="project-list">
+            <a class="project-row" href="https://github.com/henrywch/Vision_LLM" target="_blank" rel="noreferrer">
+              <span class="project-index">01</span><span class="project-name">Vision_LLM</span><span class="project-description">LLaVA-style vision-language reproduction</span><span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="project-row" href="https://github.com/henrywch/Niera" target="_blank" rel="noreferrer">
+              <span class="project-index">02</span><span class="project-name">Niera</span><span class="project-description">Speech assistant experiment · ASR / TTS</span><span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="project-row" href="https://github.com/henrywch/MM_Dataset_Clt" target="_blank" rel="noreferrer">
+              <span class="project-index">03</span><span class="project-name">MM_Dataset_Clt</span><span class="project-description">Multimodal dataset collection workflow</span><span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="project-row" href="https://github.com/henrywch/SC_LLMJudge" target="_blank" rel="noreferrer">
+              <span class="project-index">04</span><span class="project-name">SC_LLMJudge</span><span class="project-description">LLM / VLM judge evaluation exploration</span><span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <p class="source-note">Project links point to public repositories; descriptions are intentionally brief and résumé-like.</p>
+        </div>
+      </section>
+
+      <section class="resume-section section-paper" id="paper" aria-labelledby="paper-title">
+        <div class="container paper-grid">
+          <div>
+            <p class="section-kicker">04 / paper</p>
+            <h2 id="paper-title">MOSS-Video-Preview.</h2>
+            <p class="paper-title">Toward Real-Time Video Understanding via Cross-Attention</p>
+            <p class="paper-copy">Co-author · 2026 technical report · Fudan University (OpenMOSS project)</p>
+            <p class="paper-copy">A cross-attention video-language foundation model designed for streaming and low-latency interaction, keeping visual perception and text generation concurrent.</p>
+            <div class="paper-links">
+              <a class="button button-primary" href="https://arxiv.org/abs/2606.07639" target="_blank" rel="noreferrer">Read paper ↗</a>
+              <a class="button button-secondary" href="https://github.com/OpenMOSS/MOSS-Video-Preview" target="_blank" rel="noreferrer">View code ↗</a>
+              <a class="button button-quiet" href="https://huggingface.co/collections/OpenMOSS-Team/moss-video-preview" target="_blank" rel="noreferrer">Models ↗</a>
+            </div>
+          </div>
+          <aside class="paper-callout">
+            <p class="note-label">Demo</p>
+            <h3>Real-time video understanding, in miniature.</h3>
+            <p>A public interface demo will be added here after the next iteration is ready.</p>
+            <span
+              class="text-link coming-soon"
+              role="link"
+              tabindex="0"
+              aria-disabled="true"
+              aria-label="Open the demo — to be continued"
+              data-tooltip="To be continued"
+              title="To be continued"
+            >Open the demo ↗</span>
+          </aside>
+        </div>
+      </section>
+
+      <section class="resume-section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-grid">
+          <div>
+            <p class="section-kicker">05 / contact</p>
+            <h2 id="contact-title">Let’s stay in touch.</h2>
+            <p class="contact-copy">For research conversations, collaborations, or a quick hello:</p>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:23307140080@m.fudan.edu.cn"><span>Email</span><span>23307140080@m.fudan.edu.cn ↗</span></a>
+            <a href="https://github.com/henrywch" target="_blank" rel="noreferrer"><span>GitHub</span><span>@henrywch ↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span data-year></span> Wang Chenghao / 王宬皓</p>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
